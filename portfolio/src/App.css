@@ -1,0 +1,16 @@
+body {
+  background-color: royalblue;
+  margin: 2rem;
+}
+
+h1 {
+  color: red;
+  font-size: 5rem;
+  background-color: darkblue;
+}
+
+p {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
