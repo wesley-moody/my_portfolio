@@ -4,19 +4,17 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <div id='nav'>
+    <div className='nav'>
       <Menu evenly divided>
         <Container>
           <Link to='/'>
-            <Menu.Item name="Home" />
+            <Menu.Item name='Home' />
           </Link>
           <Link to='/about'>
-            <Menu.Item name="About Me" />
+            <Menu.Item name='About Me' />
           </Link>
         </Container>
-
-
       </Menu>
     </div>
-  )
+  );
 }
